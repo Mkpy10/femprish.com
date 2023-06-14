@@ -1,0 +1,44 @@
+
+body{
+    background-color: pink;
+}
+
+#marqueeStyle{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+
+.my_nav_bar{
+    background-color: pink;
+    color: black;
+    position: relative;
+    
+    
+    
+   
+}
+div{
+    color: black;
+    align-items: center;
+    
+}
+
+ul{
+    color: black;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
